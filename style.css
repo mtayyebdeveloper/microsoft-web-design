@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: sans-serif;
+}
+header .top-navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+}
+.top-navbar .left-side-menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.top-navbar .left-side-menu .site-logo img {
+  width: 120px;
+}
+#disktop-menu ul{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.top-navbar .left-side-menu ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#disktop-menu li,
+.top-navbar .left-side-menu ul li {
+  padding: 5px 15px;
+  margin: 0 3px;
+}
+#disktop-menu li:hover,
+.top-navbar .left-side-menu ul li:hover {
+  text-decoration: 2px solid black underline;
+}
+#disktop-menu li a,
+.top-navbar .left-side-menu ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.top-navbar .right-side-menu {
+  display: flex;
+  align-items: center;
+}
+.top-navbar .right-side-menu .icons {
+  margin: 0 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.top-navbar .right-side-menu .icons:hover {
+  color: rgb(34, 34, 194);
+}
+.top-navbar .right-side-menu .search-b {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  display: none;
+}
+.top-navbar .right-side-menu .search-b input {
+  width: 65vw;
+  padding: 3px 10px;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  border-right: 0;
+  outline: none;
+}
+.top-navbar .right-side-menu .search-b i {
+  font-size: 1rem;
+  padding: 8px 10px 8px 10px;
+  border: 1px solid black;
+  border-left: 0;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.top-navbar .right-side-menu .search-b i:hover {
+  color: rgb(23, 23, 216);
+}
+.top-navbar .right-side-menu .search-b button {
+  font-size: 15px;
+  padding: 4px 10px;
+  border: 1px solid black;
+  position: relative;
+  left: 0.5rem;
+  top: -2px;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.top-navbar .right-side-menu .search-b button:hover {
+  background-color: rgb(208, 208, 218);
+}
+.top-navbar .right-side-menu .your-profile {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+#dropdown-btn {
+  width: 120px;
+  height: 65px;
+  padding-top: 30px;
+  margin-right: 1rem;
+  font-size: 15px;
+  padding-left: 10px;
+}
+#dropdown-btn:hover {
+  cursor: pointer;
+}
+.text-hover:hover {
+  text-decoration: 2px solid black underline;
+}
+#dropdown-open {
+  background-color: rgb(242, 242, 242);
+  position: absolute;
+  top: 50px;
+  padding-top: 10px;
+  left: 50px;
+  width: 93vw;
+  height: 450px;
+  z-index: 2;
+  display: none;
+}
+#dropdown-open .container {
+  display: flex;
+  text-align: left;
+}
+#dropdown-open .container ul {
+  font-size: 15px;
+  margin-left: -4.5rem;
+}
+#dropdown-open .container ul li {
+  padding: 10px 0;
+  width: 240px;
+}
+#dropdown-open .container ul li a {
+  color: black;
+  text-decoration: none;
+}
+#dropdown-open .container ul li a:hover {
+  text-decoration: underline;
+}
+#mobile-menu {
+  display: none;
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 75vh;
+  display: block;
+}
+.carousel-item .carousel-caption {
+  height: 100%;
+  position: absolute;
+  width: 35%;
+  left: 2rem;
+  /* top: 4rem; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+  color: black;
+}
+main section .icons-nexts {
+  position: absolute;
+  bottom: 0;
+}
+main .container-business .all-cards,
+main .card-container{
+  display: flex;
+  width: 90vw;
+}
+
+
+main .container-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:start;
+}
+main .container-img .about-phones {
+  background-image: url(imgs/gldn-Hero-MSCOM-Outlook-iOS-Android_VP4-1260x600.webp);
+  height: 90vh;
+  width: 90vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .container-img .phone-disc{
+  position: absolute;
+  left: 6rem;
+}
+main .container-img .phone-disc div{
+  position: relative;
+  top: -5rem;
+}
+.card-title {
+  padding-top: 10px;
+}
+
+/* footer section start..... */
+footer {
+  margin-top: 5rem;
+  background-color: rgb(242, 242, 242);
+}
+footer .footer-container .top-container {
+  display: flex;
+}
+
+footer .footer-container .top-container ul li {
+  font-size: 13px;
+  padding: 5px 0;
+}
+footer .footer-container .top-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer .footer-container .top-container ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer-container .bottom-container {
+  font-size: 13px;
+}
+footer .footer-container .bottom-container ul li {
+  margin-left: 5px;
+  padding: 0 10px;
+}
+footer .footer-container .bottom-container ul li a {
+  color: black;
+  text-decoration: none;
+}
+footer .footer-container .bottom-container ul li a:hover {
+  text-decoration: underline;
+}

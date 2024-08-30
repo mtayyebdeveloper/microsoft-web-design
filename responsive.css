@@ -1,0 +1,298 @@
+@media (max-width: 1318px) {
+  #dropdown-open .container ul {
+    font-size: 13px;
+    margin-left: -3rem;
+  }
+  #dropdown-open .container ul li {
+    width: 210px;
+  }
+}
+
+@media (max-width: 1252px) {
+  #dropdown-open .container ul {
+    font-size: 13px;
+    margin-left: -1.5rem;
+  }
+  #dropdown-open .container ul li {
+    width: 180px;
+  }
+}
+@media (max-width: 1211px) {
+  #dropdown-open .container ul {
+    margin-left: -1rem;
+  }
+  #dropdown-open .container ul li {
+    width: 150px;
+  }
+}
+@media (max-width: 1064px) {
+  #dropdown-open {
+    background-color: rgb(242, 242, 242);
+    width: 93vw;
+    height: 600px;
+  }
+  #dropdown-open .container ul li {
+    padding: 10px 0;
+    width: 170px;
+  }
+  #dropdown-open .container {
+    flex-wrap: wrap;
+  }
+  .footer-container .bottom-container .left-side {
+    flex-direction: column;
+  }
+  .footer-container .bottom-container .left-side .states {
+    position: relative;
+    left: 7px;
+  }
+  .footer-container .bottom-container .left-side .privacy {
+    position: relative;
+    left: -9px;
+    top: -10px;
+  }
+}
+@media (max-width: 1037px) {
+  header .top-navbar {
+    padding: 5px 40px;
+  }
+  .top-navbar .left-side-menu ul {
+    font-size: 13px;
+  }
+  .top-navbar .right-side-menu .icons {
+    font-size: 13px;
+  }
+  #dropdown-btn {
+    font-size: 13px;
+    padding-top: 33px;
+  }
+  .top-navbar .left-side-menu .site-logo img {
+    width: 100px;
+  }
+}
+@media (max-width: 1025px) {
+  #dropdown-open {
+    background-color: rgb(242, 242, 242);
+    width: 900px;
+    left: 7vw;
+    height: 780px;
+  }
+}
+@media (max-width:1000px){
+  main .container-img .about-phones {
+    width: 87vw;
+  }
+}
+@media (min-width: 998px) {
+  main .container-business .all-cards .cards,
+  main .card-container .cards {
+    width: 17rem;
+    border: none;
+  }
+}
+@media (max-width: 998px) {
+  #dropdown-open {
+    left: 5vw;
+    width: 850px;
+  }
+  #dropdown-open .container ul li {
+    padding: 10px 5px;
+    width: auto;
+  }
+  .container-business .all-cards,
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .container-business .all-cards .cards,
+  .card-container .cards {
+    width: 42vw;
+  }
+}
+@media (max-width: 946px) {
+  .footer-container .bottom-container {
+    flex-direction: column;
+  }
+  .footer-container .bottom-container .footer-menu {
+    position: relative;
+    left: -40px;
+    top: -10px;
+  }
+}
+@media (max-width: 914px) {
+  #dropdown-open {
+    left: 4vw;
+    width: 800px;
+  }
+}
+@media (max-width: 908px) {
+  #disktop-menu ul {
+    font-size: 14px;
+    margin-left: -6px;
+  }
+  #disktop-menu ul li {
+    padding: 5px 10px;
+  }
+  .footer-container .top-container {
+    flex-wrap: wrap;
+  }
+  main .container-img{
+    flex-direction: column;
+    align-items: start;
+  justify-content:end;
+  }
+  main .container-img .about-phones {
+    background-position: right;
+    height: 80vh;
+  }
+  main .container-img .phone-disc{
+    position: static;
+    margin-top: 1rem;
+  }
+  main .container-img .phone-disc div{
+    position: static;
+  }
+}
+@media (min-width: 860px) {
+  #nav-open-btn {
+    display: none;
+  }
+  #nav-close-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 860px) {
+  #disktop-menu {
+    display: none;
+  }
+  #dropdown-btn {
+    display: none;
+  }
+  #nav-open-btn {
+    display: block;
+    position: relative;
+    left: -15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #nav-close-icon {
+    display: none;
+    position: relative;
+    left: -15px;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  #nav-open-btn:hover,
+  #nav-close-icon:hover {
+    color: rgb(34, 74, 204);
+    transition: all 1s;
+  }
+  .left-side-menu .main-menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    background: rgb(242,242,242);
+    color: black;
+    z-index: 5;
+  }
+
+  .left-side-menu .main-menu ul {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    flex-direction: column;
+    width: 97.5vw;
+    position: relative;
+  }
+  .left-side-menu .main-menu .mobile-menu .sec{
+    width: 98vw;
+    border-bottom: 2px solid white;
+    position: relative;
+    left: -14px;
+  }
+  .left-side-menu .main-menu ul li {
+    width: 99vw;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+  }
+  .left-side-menu .main-menu .mobile-menu .sec .drop-down{
+    display: none;
+  }
+  .left-side-menu .main-menu .mobile-menu .sec.active .drop-down{
+    display: block;
+  }
+  .left-side-menu .main-menu .mobile-menu .sec.active .nav-dropdown-btn i{
+    transform: rotate(180deg);
+  }
+
+  .left-side-menu .main-menu ul .mobile-menu .sec ul li {
+    width: 95vw;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+  }
+  .nav-dropdown-btn {
+    position: relative;
+    left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+  }
+}
+@media (max-width: 800px) {
+  .carousel-item .carousel-caption {
+    position: relative;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    top: -5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.295);
+  }
+}
+@media (max-width: 756px) {
+  .footer-container .bottom-container .footer-menu ul {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .container-business .all-cards .cards,
+  .card-container .cards {
+    width: 85vw;
+  }
+}
+@media (max-width: 600px) {
+  .top-navbar .right-side-menu .search-b input {
+    width: 55vw;
+  }
+  main .container-img .about-phones {
+    background-position: right;
+    height: 70vh;
+  }
+}
+@media (max-width: 500px) {
+  .container-business .all-cards .cards,
+  .card-container .cards {
+    width: 76vw;
+  }
+  main .container-img .about-phones {
+    width: 78vw;
+  }
+}
+@media (max-width: 468px) {
+  .footer-container .top-container {
+    flex-direction: column;
+  }
+  .top-navbar .right-side-menu .search-b {
+    right: 40px;
+  }
+}
+@media (max-width: 376px) {
+  .top-navbar .right-side-menu .search-b {
+    right: 25px;
+  }
+}
